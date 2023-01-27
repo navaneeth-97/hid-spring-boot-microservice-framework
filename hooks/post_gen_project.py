@@ -15,7 +15,7 @@ def main():
     project_name = "{{ cookiecutter.project_name }}"
 
     templates_repo = "{{ cookiecutter._templates_repo }}"
-    template_dir = os.path.join("templates", "{{ cookiecutter.java_version }}", "{{ cookiecutter.authentication }}")
+    template_dir = os.path.join("templates", "{{ cookiecutter.java_version }}")
     
     cookiecutter(   
                     templates_repo,
