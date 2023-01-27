@@ -13,6 +13,7 @@ HINT = "\x1b[3;33m"
 def main():
 
     project_name = "{{ cookiecutter.project_name }}"
+    resource_name = "{{ cookiecutter.resource_name }}"
 
     templates_repo = "{{ cookiecutter._templates_repo }}"
     template_dir = os.path.join("templates", "{{ cookiecutter.java_version }}")
@@ -24,7 +25,8 @@ def main():
                     output_dir="..",
                     overwrite_if_exists=True,
                     extra_context={
-                                    "project_name": project_name
+                                    "project_name": project_name,
+                                    "resource_name": resource_name
                                   }
                 )
 

@@ -1,5 +1,6 @@
 {
     "project_name":"MyApp",
+    "resource_name":"",
     "java_version": ["java8", "java11", "java19"],
     "dependency_manager": ["Maven", "Gradle"],
     "_templates_repo": "C:\\Projects\\internal\\microservice-framework\\cookiecutter-spring-microservice\\hid-spring-boot-microservice-framework"
